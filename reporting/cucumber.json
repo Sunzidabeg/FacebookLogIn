@@ -1,0 +1,84 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 27,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-feature;login-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15510743800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to be in log in page",
+            "match": {
+              "location": "LoginTest.user_has_to_be_in_log_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3182900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Try log in by invalid \"abc@gmail.com\" and \"1436666\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@gmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "1436666",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginTest.try_log_in_by_invalid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Unable to log in",
+            "match": {
+              "location": "LoginTest.unable_to_log_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Sunzida/IdeaProjects/facebook/src/main/java/features/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]
